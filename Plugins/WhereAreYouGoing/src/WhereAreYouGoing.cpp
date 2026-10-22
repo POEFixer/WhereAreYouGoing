@@ -28,7 +28,7 @@
 POEFIXER_PLUGIN_INFO(
     "WhereAreYouGoing",
     "Where Are You Going",
-    "1.0.0",
+    "1.0.1",
     "KaiEKum, POEFixer",
     "Draws a ring on the ground around rare and unique monsters (or any rarity you pick) and can show a line to where each one is going.")
 
