@@ -4,6 +4,10 @@
 //
 // Originally created by KaiEKum (https://github.com/KaiEKum/POEFixerPlugins).
 // Maintained by POEFixer since October 2026.
+//
+// Texts follow the program language (PluginI18n.h): lang/<code>.json next to the
+// DLL, English compiled in through lang_en.generated.h (python
+// tools/plugin_i18n/gen.py Plugins/WhereAreYouGoing after editing lang/en.json).
 
 #ifndef NOMINMAX
 #define NOMINMAX
@@ -11,6 +15,7 @@
 #include <windows.h>
 
 #include "../../../POEFixer/plugin_sdk/PluginSDK.h"
+#include "lang_en.generated.h"   // once per DLL, after PluginSDK.h
 #include "../../../POEFixer/imgui/imgui.h"
 #include "../../../POEFixer/imgui/imgui_internal.h"   // ImTextInitClassifiers
 
@@ -28,7 +33,7 @@
 POEFIXER_PLUGIN_INFO(
     "WhereAreYouGoing",
     "Where Are You Going",
-    "1.0.2",
+    "1.0.3",
     "KaiEKum, POEFixer",
     "Draws a ring on the ground around rare and unique monsters (or any rarity you pick) and can show a line to where each one is going.")
 

@@ -48,6 +48,9 @@
     <ClInclude Include="src\SettingsUi.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="src\lang_en.generated.h">
+      <Filter>src</Filter>
+    </ClInclude>
     <ClInclude Include="lib\nlohmann\json.hpp">
       <Filter>lib</Filter>
     </ClInclude>

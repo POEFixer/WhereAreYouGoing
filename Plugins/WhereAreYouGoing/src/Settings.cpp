@@ -89,16 +89,6 @@ const char* RarityKey(int rarity) {
     }
 }
 
-const char* RarityLabel(int rarity) {
-    switch (rarity) {
-    case kRarityNormal: return "Normal";
-    case kRarityMagic:  return "Magic";
-    case kRarityRare:   return "Rare";
-    case kRarityUnique: return "Unique";
-    default:            return "Unknown";
-    }
-}
-
 void Settings::Clamp() {
     const Settings d;
     for (int r = 0; r < kRarityCount; ++r) {

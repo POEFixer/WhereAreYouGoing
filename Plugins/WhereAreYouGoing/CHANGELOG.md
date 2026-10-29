@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- Follows the program language (ten languages).
+
 ## 1.0.2
 
 - Works with the separate menu window (POEFixer 366): the host hands the plugin the right drawing context for its settings tab and for its overlay.

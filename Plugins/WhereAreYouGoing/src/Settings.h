@@ -64,7 +64,7 @@ struct Settings {
 };
 
 const char* RarityKey(int rarity);     // "normal", "magic", "rare", "unique" (file keys)
-const char* RarityLabel(int rarity);   // "Normal", "Magic", "Rare", "Unique"
+// The rarity's name on screen is a text of lang/en.json (SettingsUi.cpp, RarityText).
 
 // Parses a settings object. Returns false when the text is not a JSON object
 // (`out` is left alone). `fromUpstream` (optional) is set when the object came

@@ -115,6 +115,7 @@
     <ClInclude Include="src\Tracker.h" />
     <ClInclude Include="src\Overlay.h" />
     <ClInclude Include="src\SettingsUi.h" />
+    <ClInclude Include="src\lang_en.generated.h" />
     <ClInclude Include="lib\nlohmann\json.hpp" />
     <ClInclude Include="..\..\POEFixer\plugin_sdk\PluginAbi.h" />
     <ClInclude Include="..\..\POEFixer\plugin_sdk\PluginSDK.h" />
